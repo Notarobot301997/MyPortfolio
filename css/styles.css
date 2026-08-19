@@ -2,13 +2,16 @@
 /* Mobile Device CSS*/
 @media screen and (max-width: 480px) {
   body {
-    font-size: 14px;
     background-color: rgba(255,255,255,1.0)
   }
 
   h1{
   font-family: 'Roboto', sans-serif;
   color: rgb(0,0,0);
+
+  .column {
+  width: 100%;
+}
 }
 
 body {
@@ -33,22 +36,61 @@ footer{
   body {
     background-color: rgba(255,0,0,1.0)
   }
+
+    .column {
+  width: 50%;
+}
 }
 
 
 /* Desktop Device CSS*/
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px){
   body {
     background-color: rgba(0,0,255,1.0)
   }
+
+  .column {
+  width: 33.33%;
+}
 }
 
+/* Universal Properties*/
+body{
+   font-size: 14px;
+}
+
+h1{
+  font-family: 'Roboto', sans-serif;
+  color: rgb(0,0,0);
+}   
 
 #menu ul{
   background-color: rgb(255, 255, 255);
   list-style: none;
   text-align: center;
+  padding: 1em;
+  
 }
 #menu li{
   display: inline;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+ a{
+  text-decoration: none;
+ }
+
+    .column {
+  float: left;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+ 
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
