@@ -1,0 +1,19 @@
+console.log("JavaScript is working properly.");
+
+const navToggle = document.querySelector(".nav-toggle");
+console.log("navToggle initialized.");
+const navMenu = document.querySelector(".nav-menu");
+console.log("navMenu initialized.");
+
+navToggle.addEventListener("click", () => 
+    {
+    navToggle.classList.toggle("active");
+    navMenu.classList.toggle("active");
+}
+)
+
+document.querySelectorAll(".nav-link").forEach(n => n
+    .addEventListener("click", () => {
+        navToggle.classList.remove("active");
+        navMenu.classList.remove("active");
+    }))
