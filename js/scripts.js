@@ -1,9 +1,7 @@
 console.log("JavaScript is working properly.");
 
 const navToggle = document.querySelector(".nav-toggle");
-console.log("navToggle initialized.");
 const navMenu = document.querySelector(".nav-menu");
-console.log("navMenu initialized.");
 
 navToggle.addEventListener("click", () => 
     {
