@@ -7,7 +7,7 @@
 }
 
 header{
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(23, 0, 200);
   color: rgb(255, 255, 255);
   padding: 15px;
   margin-bottom: 20px;
@@ -16,10 +16,12 @@ header{
 body {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 14px;
+    color: rgba(0, 0, 0, .7);
 }
 
 p{
-     margin: 0 16px;
+     margin: 0 32px;
+     color: rgb(0, 0, 0);
 }
 
  a{
@@ -28,7 +30,8 @@ p{
  }
 
  a:hover{
-    color: rgb(60, 0, 255);
+    color: rgb(0, 0, 0);
+    text-decoration: bold;
  }
 
 
@@ -41,8 +44,18 @@ p{
 
  img{
   width: 75%;
-  height: auto;
    border: 1px solid rgb(255, 0, 0);
+ }
+
+ footer{
+  background-color: rgb(23, 0, 200);
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  margin-top: 20px;
+ }
+
+ footer p{
+   color: rgb(255, 255, 255);
  }
 
  .hero-image{
@@ -57,7 +70,7 @@ p{
 
  /* Responsive Navigation Properties*/
  .responsive-nav{
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(23, 0, 200);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -91,6 +104,10 @@ p{
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: rgb(255, 255, 255);
+ }
+ 
+ .column{
+  color:rgba(255, 255, 255, .5)
  }
 
  .column p{
