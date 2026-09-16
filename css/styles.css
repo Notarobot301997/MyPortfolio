@@ -45,6 +45,17 @@ p{
    border: 1px solid rgb(255, 0, 0);
  }
 
+ .hero-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  width: 50%; 
+  border: 1px solid rgb(0, 0, 255);
+ }
+
+ /* Responsive Navigation Properties*/
  .responsive-nav{
   background-color: rgb(0, 0, 0);
   display: flex;
@@ -83,13 +94,16 @@ p{
  }
 
  .column p{
+  margin: 10 0 0 0px;
   padding: 10px;
-    border: 1px solid rgb(255, 0, 0);
+  border: 1px solid rgb(255, 0, 0);
+  border-radius: 0 0 15px 15px;
  }
 
  .column img{
-  padding: 10px;
-    border: 1px solid rgb(0, 0, 0);
+  margin: 10 -20px 0px;
+    border: 5px solid rgb(0, 0, 0);
+      border-radius: 15px 15px 0 0;
  }
 
 .row{
